@@ -1,0 +1,16 @@
+name = "fortzip"
+version = "0.1.0"
+license = "MIT"
+author = "Christopher Albert"
+maintainer = "albert@tugraz.at"
+copyright = "Copyright 2026, Christopher Albert"
+description = "DEFLATE, zlib and gzip compression and CRC-32/Adler-32 in Fortran"
+
+[build]
+auto-executables = false
+auto-tests = true
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
